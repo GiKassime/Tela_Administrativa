@@ -1,0 +1,15 @@
+.sidebar{
+    transition: transform 0.3s ;
+}
+.sidebar a{
+    display: block;
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width: 965px) {
+   
+    .sidebar.show {
+        transform: translateX(-100%);
+    }
+}
